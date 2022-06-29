@@ -9,7 +9,7 @@ import styled from 'styled-components';
 
 export const AboutSection = styled.div`
     height: 500px;
-    background-image: url('../images/creative/about-bg.jpg');
+    background-image: url('images/about-bg.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

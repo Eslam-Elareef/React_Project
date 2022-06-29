@@ -3,7 +3,7 @@ import axios from 'axios';
 import { PortfolioSection , PortfolioTitle , Span , PortfolioList , 
   PortfolioItem , ImageRapper ,Image , Overlay , OverlaySpan } from './style.js'
 
-function Portfolio  ()  {
+const Portfolio = () =>  {
 
     const [ images , setImages ] = useState([])
 

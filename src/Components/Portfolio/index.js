@@ -37,7 +37,7 @@ const Portfolio = () =>  {
             
         <div className='box'>
 
-          {PortfolioImages}
+          ${PortfolioImages}
                 
           {/* <ImageRapper>
               <Image src="images/Portfolio/portfolio-img1.jpg" alt="" />

@@ -35,7 +35,7 @@ class Work extends Component {
             <div className="container">
                 <WorkTitle> <Span>My</Span> Work</WorkTitle>
 
-                {worksList}
+                ${worksList}
 
                 {/* <WorkPart first="1">
                     <Icon className="icon fa fa-chain fa-2x"></Icon>

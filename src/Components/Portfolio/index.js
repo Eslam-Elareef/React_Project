@@ -34,24 +34,13 @@ const Portfolio = () =>  {
             <PortfolioItem>Wordpress</PortfolioItem>
             <PortfolioItem>Mobile</PortfolioItem>
         </PortfolioList>
-            
+        
         <div className='box'>
+          {PortfolioImages}
+        </div>
 
-          ${PortfolioImages}
-                
-          {/* <ImageRapper>
-              <Image src="images/Portfolio/portfolio-img1.jpg" alt="" />
-              <Overlay>
-                  <OverlaySpan>
-                      Show Image
-                  </OverlaySpan>
-              </Overlay>
-          </ImageRapper> */}
-                
-            </div>
-            
       </PortfolioSection>
-    );
+    )
   }
   
   export default Portfolio;

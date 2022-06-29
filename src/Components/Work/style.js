@@ -28,7 +28,7 @@ export const WorkPart = styled.div`
     box-sizing: border-box;
     text-align: center;
     margin-left: 5%;
-    margin-left: ${props => props.first === 1 ? '0' : '5%'};
+    margin-left: ${ props => props.first === 1 ? '0' : '5%'};
 
     @media (max-width: 575px) {
             width: 100%;

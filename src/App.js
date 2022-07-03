@@ -1,5 +1,5 @@
 import './App.css';
-
+import React from 'react';
 import { BrowserRouter , Routes, Route } from 'react-router-dom';
 
 import Navbar from './Components/Navbar'
@@ -10,7 +10,7 @@ function App() {
   return (
         
         <BrowserRouter>
-          <div>      
+          <div>
             <Navbar />
             <Routes>
               <Route exact path="/" element={<Index/>} />
